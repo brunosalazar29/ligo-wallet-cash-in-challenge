@@ -7,3 +7,7 @@ coverage/
 .local-postgres/
 /launcher/bin/
 /launcher/obj/
+/artifacts/windows/*.exe
+/entrega/*.zip
+/entrega/Correo-de-entrega.txt
+/entrega/LEEME-ENTREGA.txt
