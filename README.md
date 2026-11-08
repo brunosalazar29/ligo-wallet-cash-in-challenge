@@ -112,7 +112,7 @@ La firma es HMAC-SHA256 de `timestamp + "." + cuerpo HTTP crudo`, usando `WEBHOO
 
 Requiere Node.js 22.12 o posterior y Docker Compose.
 
-En Windows también puedes ejecutar `artifacts/windows/LigoCashIn.exe` desde la carpeta del proyecto. El lanzador comprueba Node.js 22.12+ y Docker Desktop, crea `.env` desde `.env.example` si hace falta, inicia PostgreSQL, aplica migraciones, carga la billetera de demostración e inicia la API. Mantén abierta la consola mientras usas la URL que muestra el lanzador (por defecto `http://localhost:3000`).
+En Windows, el proyecto incluye el código fuente del lanzador en `launcher/`. Compílalo siguiendo la sección [Generar el lanzador Windows](#generar-el-lanzador-windows). Después, ejecuta `artifacts/windows/LigoCashIn.exe` desde la carpeta raíz. El lanzador comprueba Node.js 22.12+ y Docker Desktop, crea `.env` desde `.env.example` si hace falta, inicia PostgreSQL, aplica migraciones, carga la billetera de demostración e inicia la API. Mantén abierta la consola mientras usas la URL que muestra el lanzador (por defecto `http://localhost:3000`).
 
 ```powershell
 Copy-Item .env.example .env
