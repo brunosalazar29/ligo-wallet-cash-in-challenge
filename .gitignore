@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.vitest/
+coverage/
+*.log
+.local-postgres/
+/launcher/bin/
+/launcher/obj/
